@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:the_diary/create_assignment.dart';
 import 'package:the_diary/homepage.dart';
 
 void main() {
@@ -10,6 +11,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: HomePage());
+    return MaterialApp(
+      title: 'The notes',
+      debugShowCheckedModeBanner: false,
+      initialRoute: HomePage.id,
+      routes: {
+        HomePage.id: (context) => const HomePage(),
+        AddFile.id: (context) => const AddFile()
+      },
+    );
   }
 }

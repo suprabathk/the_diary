@@ -9,6 +9,7 @@ const String id = 'Upload';
 final storageRef = FirebaseStorage.instance.ref();
 
 class AddFile extends StatefulWidget {
+  static String id = "create_assignment";
   const AddFile({Key? key}) : super(key: key);
 
   @override
