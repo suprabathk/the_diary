@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-const String id = 'Upload';
+// const String id = 'Upload';
 final storageRef = FirebaseStorage.instance.ref();
 
 class AddFile extends StatefulWidget {
-  static String id = "create_assignment";
+  static String id = "add_file";
   const AddFile({Key? key}) : super(key: key);
 
   @override
