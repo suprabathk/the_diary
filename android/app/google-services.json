@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "622390910329",
+    "project_id": "the-diary-98f20",
+    "storage_bucket": "the-diary-98f20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622390910329:android:b097271dcb9ef7945ae3a8",
+        "android_client_info": {
+          "package_name": "com.example.the_diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622390910329-ml7r94j9dl1h274pij81k82k5plm395q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCArh0u1u_RIa9BE9zP6HZjN8kAICLH3yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622390910329-ml7r94j9dl1h274pij81k82k5plm395q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

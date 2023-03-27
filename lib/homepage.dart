@@ -15,7 +15,6 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       extendBody: true,
       backgroundColor: const Color.fromARGB(255, 20, 19, 19),
-      appBar: AppBar(),
       floatingActionButton: FloatingActionButton.extended(
         backgroundColor: Color.fromARGB(255, 247, 11, 58),
         onPressed: () {
